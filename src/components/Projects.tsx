@@ -12,7 +12,6 @@ const Projects = () => {
     "A dynamic web-based e-book store where users can register, browse, sell and purchase old and new books online. Built with Java, JSP, and JDBC, and powered by a MySQL database for storing user and order data.",
   image: ebookImg,
   technologies: ["Java", "JSP", "JDBC", "MySQL", "Apache Tomcat"],
-  liveUrl: "", // Add your deployed link here if available
   githubUrl: "https://github.com/shivamvarsh9654/E-Book-Store", // Replace with your repo link
 },
 
