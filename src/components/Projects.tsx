@@ -22,7 +22,7 @@ const Projects = () => {
       // image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=500&h=300&fit=crop",
       image: portfolioImg,
       technologies: ["React.js", "Tailwind CSS", "HTML5", "CSS3"],
-      liveUrl: "https://shivamvar-portfolio.netlify.app/",
+      // liveUrl: "https://shivamvar-portfolio.netlify.app/",
       githubUrl: "https://github.com/shivamvarsh9654/Portfolio-New",
     },
   ];
@@ -75,13 +75,13 @@ const Projects = () => {
                 </div>
 
                 <div className="flex space-x-4">
-                  <a
+                  {/* <a
                     href={project.liveUrl}
                     className="flex items-center space-x-2 text-emerald-400 hover:text-emerald-300 transition-colors"
                   >
                     <ExternalLink size={16} />
                     <span>Live Demo</span>
-                  </a>
+                  </a> */}
                   <a
                     href={project.githubUrl}
                     className="flex items-center space-x-2 text-slate-400 hover:text-white transition-colors"
